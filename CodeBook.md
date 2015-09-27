@@ -11,12 +11,12 @@ The final data set contains the averages of feature measures, grouped by subject
 
 ### Test files
 * X_test.txt - all features measurements
-* y_test.txt - activities for each measurement
+* y_test.txt - activities related to each measurement
 * subject_test.txt - subjects for each measurement
 
 ### Train files
 * X_train.txt - all features measurements
-* y_train.txt - activities for each measurement
+* y_train.txt - activities related to each measurement
 * subject_train.txt - subjects for each measurement
 
 
@@ -24,7 +24,7 @@ The final data set contains the averages of feature measures, grouped by subject
 
 ### Reading files
 Measurement data were loaded to "x_test" data frame<br />
-Data columns names are set to features names<br />
+Data columns names are set to corresponding features names<br />
 Subjects and activities columns were added
 
 ### Merging data sets
@@ -38,7 +38,7 @@ Using function grepl, the data frame "x_subset" was generated, containg only mea
 Using loop commands, each feature measurement column is summarised<br />
 Each summarising result is added to the final data set "mean_total_table", which contains the average values grouped by subject, activity and feature name
 
-### Save result table
+## Save result table
 Final data set were saved using function write.table, generating file "tidy_data.txt"<br />
 This step is not included in the R script
 
