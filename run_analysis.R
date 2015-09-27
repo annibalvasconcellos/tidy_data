@@ -1,10 +1,8 @@
 library(plyr)
 library(dplyr)
 
-## initialize directory
-dir_anterior <- getwd()
-##setwd("C:/New_Documents/Cursos_Big_Data/Get_Obtain_Data")
-setwd("C:/R_Programming/Course_Project")
+## It is not necessary to initialize directory, since the data file should be copied to the working directory
+## Note that the "test" and "train" files must be located in the corresponding subdirectories
 
 ## reading description files
 activities <- read.csv("activity_labels.txt",header=FALSE,sep="")
