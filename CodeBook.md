@@ -6,7 +6,7 @@ The final data set contains the averages of feature measures, grouped by subject
 ## Input Data
 
 ### Description files
-* activity_labels.txt - contains description names of activities
+* activity_labels.txt - contains activities description names 
 * features.txt - contains all measured features names
 
 ### Test files
