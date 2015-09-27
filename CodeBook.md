@@ -23,6 +23,7 @@ The final data set contains the averages of feature measures, grouped by subject
 Description files should be be located in the working directory, and "test" and "train" files in the corresponding subdirectories
 
 
+
 ## Processing stages
 
 ### Reading files
@@ -43,6 +44,7 @@ Each summarising result is added to the final data set "mean_total_table", which
 
 ### Processing time
 The complete process took about 5 minutes to run, in a 64-bit notebook
+
 
 
 ## Save result table
