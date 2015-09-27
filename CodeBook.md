@@ -19,6 +19,7 @@ The final data set contains the averages of feature measures, grouped by subject
 * y_train.txt - activities related to each measurement
 * subject_train.txt - subjects for each measurement
 
+Description files shoulbe be located in the working directory, and "test" and "train" files in the corresponding subdirectories
 
 ## Processing stages
 
