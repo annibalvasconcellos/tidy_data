@@ -23,7 +23,7 @@ The final data set contains the averages of feature measures, grouped by subject
 Description files should be be located in the working directory, and "test" and "train" files in the corresponding subdirectories
 
 
-
+<br />
 ## Processing stages
 
 ### Reading files
@@ -46,7 +46,7 @@ Each summarising result is added to the final data set "mean_total_table", which
 The complete process took about 5 minutes to run, in a 64-bit notebook
 
 
-
+<br />
 ## Save result table
 Final data set were saved using function write.table, generating file "tidy_data.txt"<br />
 This step is not included in the R script
