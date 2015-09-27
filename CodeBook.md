@@ -23,5 +23,17 @@ The final data set contains the averages of feature measures, grouped by subject
 ## Processing stages
 
 ### Reading files
+Measurement data were loaded to "x_test" data frame
+Data columns names are set to features names
+Subjects and activities columns were added
 
+### Merging data sets
+Test and trains data sets were merged using rbind function, generating the complete data frame "x_onedataset"
+The complete data set contains 3 "key" columns (stage,subject,activity) and 79 "data" columns (features measurements)
+
+### Subsetting to pick only mean and std
+Using function grepl, the data frame "x_subset" was generated, containg only mean and std measurements
+
+### Group by and summarise
+Using loop commands, each 
 
