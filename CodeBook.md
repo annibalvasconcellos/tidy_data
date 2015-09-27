@@ -35,5 +35,11 @@ The complete data set contains 3 "key" columns (stage,subject,activity) and 79 "
 Using function grepl, the data frame "x_subset" was generated, containg only mean and std measurements
 
 ### Group by and summarise
-Using loop commands, each 
+Using loop commands, each feature measurement column is summarised
+Each summarising result is added to the final data set "mean_total_table", which contains the average values grouped by subject, activity and feature name
+
+### Save result table
+Final data set were saved using function write.table, generating file "tidy_data.txt"
+This step is not included in the R script
+
 
