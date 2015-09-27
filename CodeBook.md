@@ -23,23 +23,23 @@ The final data set contains the averages of feature measures, grouped by subject
 ## Processing stages
 
 ### Reading files
-Measurement data were loaded to "x_test" data frame
-Data columns names are set to features names
+Measurement data were loaded to "x_test" data frame<br />
+Data columns names are set to features names<br />
 Subjects and activities columns were added
 
 ### Merging data sets
-Test and trains data sets were merged using rbind function, generating the complete data frame "x_onedataset"
+Test and trains data sets were merged using rbind function, generating the complete data frame "x_onedataset"<br />
 The complete data set contains 3 "key" columns (stage,subject,activity) and 79 "data" columns (features measurements)
 
 ### Subsetting to pick only mean and std
 Using function grepl, the data frame "x_subset" was generated, containg only mean and std measurements
 
 ### Group by and summarise
-Using loop commands, each feature measurement column is summarised
+Using loop commands, each feature measurement column is summarised<br />
 Each summarising result is added to the final data set "mean_total_table", which contains the average values grouped by subject, activity and feature name
 
 ### Save result table
-Final data set were saved using function write.table, generating file "tidy_data.txt"
+Final data set were saved using function write.table, generating file "tidy_data.txt"<br />
 This step is not included in the R script
 
 
