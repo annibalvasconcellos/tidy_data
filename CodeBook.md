@@ -19,7 +19,8 @@ The final data set contains the averages of feature measures, grouped by subject
 * y_train.txt - activities related to each measurement
 * subject_train.txt - subjects for each measurement
 
-Description files shoulbe be located in the working directory, and "test" and "train" files in the corresponding subdirectories
+Description files shoul be be located in the working directory, and "test" and "train" files in the corresponding subdirectories
+
 
 ## Processing stages
 
@@ -38,6 +39,8 @@ Using function grepl, the data frame "x_subset" was generated, containg only mea
 ### Group by and summarise
 Using loop commands, each feature measurement column is summarised<br />
 Each summarising result is added to the final data set "mean_total_table", which contains the average values grouped by subject, activity and feature name
+
+The complete process took about 5 minutes to run, in a 64-bit notebook
 
 
 ## Save result table
