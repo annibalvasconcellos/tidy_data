@@ -1,6 +1,6 @@
 ## Code Book for Course Project script
 
-Description of cleaning and processing data, in order to provide tidy data set
+Description of cleaning and processing data, in order to provide tidy data set<br />
 The final data set contains the averages of feature measures, grouped by subjects and activities
 
 ## Input Data
