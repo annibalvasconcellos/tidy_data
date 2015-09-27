@@ -38,6 +38,7 @@ Using function grepl, the data frame "x_subset" was generated, containg only mea
 Using loop commands, each feature measurement column is summarised<br />
 Each summarising result is added to the final data set "mean_total_table", which contains the average values grouped by subject, activity and feature name
 
+
 ## Save result table
 Final data set were saved using function write.table, generating file "tidy_data.txt"<br />
 This step is not included in the R script
