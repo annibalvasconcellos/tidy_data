@@ -10,5 +10,18 @@ The final data set contains the averages of feature measures, grouped by subject
 * features.txt - contains all measured features names
 
 ### Test files
+* X_test.txt - all features measurements
+* y_test.txt - activities for each measurement
+* subject_test.txt - subjects for each measurement
+
+### Train files
+* X_train.txt - all features measurements
+* y_train.txt - activities for each measurement
+* subject_train.txt - subjects for each measurement
+
+
+## Processing stages
+
+### Reading files
 
 
